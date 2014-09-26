@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spruce</string>
+    <string name="Spruce">Spruce</string>
+    <string name="My_Store">My Store</string>
+	<string name="Profile">Profile</string>
+	<string name="Save_To_Profile">Save to Profile</string>
+	<string name="Buy_Now">Buy Now</string>
+	<string name="Share_On_Facebook">Share on Facebook</string>
+	<string name="Share_On_Twitter">Share on Twitter</string>
+	<string name="Email">Email</string>
+	<string name="Message">Message</string>
+	<string name="Copy_Link">Copy Link</string>
+	<string name="Save_Image">Save Image</string>
+	<string name="Settings">Settings</string>
+	<string name="Product_Information">Product Information</string>
+	<string name="Register">Register</string>
+	<string name="Create_Account">Create Account</string>
+	<string name="No_More_Products">No More Products</string>
+		
+		
+</resources>

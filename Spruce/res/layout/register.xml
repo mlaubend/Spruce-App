@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical" >
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="35dp" >
+    </View>
+    
+    <EditText
+        android:id="@+id/username"
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:background="@color/text"
+        android:gravity="center"
+        android:hint="Username" >    "
+    </EditText>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" >
+    </View>
+  
+   	<EditText
+   	    android:id="@+id/pasword"
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"        
+        android:background="@color/text"
+        android:hint="password"
+        android:inputType="textPassword" >"
+    </EditText>
+    
+   	<Button
+   	    android:id="@+id/login"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp"
+   	    android:text="Login" 
+   	    android:background="@color/Everything" >"
+   	</Button>
+   	
+   	<View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" >
+    </View>
+    
+   	<TextView
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:gravity="center"
+   	    android:text="New to Spruce?"
+   	    android:background="@color/Background"
+   	    android:padding="25dp" >
+	</TextView>
+    
+   	<Button
+   	    android:id="@+id/create_account"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp"
+   	    android:text="Create Account" 
+   	    android:background="@color/Dressy" >"
+   	</Button>
+    	
+
+</LinearLayout>

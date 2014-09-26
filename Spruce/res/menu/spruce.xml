@@ -1,0 +1,84 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/Spruce"
+        android:orderInCategory="1"
+        android:icon="@drawable/thumbs_up_icon"
+        android:title="@string/Spruce"
+        android:showAsAction="always" />
+    
+    <item
+       	android:id="@+id/My_Store"
+        android:orderInCategory="2"
+        android:icon="@drawable/star_outline_icon"
+        android:title="@string/My_Store"
+        android:showAsAction="always" />
+    
+    <item
+        android:id="@+id/Profile"
+        android:orderInCategory="3"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/Profile"
+        android:showAsAction="always" />
+    
+    <item
+        android:id="@+id/Save_To_Profile"
+        android:orderInCategory="1"
+        android:title="@string/Save_To_Profile"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Buy_Now"
+        android:orderInCategory="2"
+        android:title="@string/Buy_Now"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Share_On_Facebook"
+        android:orderInCategory="3"
+        android:title="@string/Share_On_Facebook"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Share_On_Twitter"
+        android:orderInCategory="4"
+        android:title="@string/Share_On_Twitter"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Email"
+        android:orderInCategory="5"
+        android:title="@string/Email"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Message"
+        android:orderInCategory="6"
+        android:title="@string/Message"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Copy_Link"
+        android:orderInCategory="7"
+        android:title="@string/Copy_Link"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Save_Image"
+        android:orderInCategory="8"
+        android:title="@string/Save_Image"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Register"
+        android:orderInCategory="9"
+        android:title="@string/Register"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/Settings"
+        android:orderInCategory="10"
+        android:title="@string/Settings"
+        android:showAsAction="never" />
+
+</menu>

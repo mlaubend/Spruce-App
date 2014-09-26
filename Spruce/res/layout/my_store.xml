@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:label="@string/My_Store" >
+    
+    <Button
+    	android:id="@+id/Everything"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Everything" 
+        android:background="@color/Everything"
+        android:textColor="@color/text" >
+    </Button>
+        
+   <Button
+       android:id="@+id/Casual"
+       android:layout_width="170dp"
+       android:layout_height="100dp"
+       android:layout_alignParentLeft="true"
+       android:layout_margin="10dp"
+       android:layout_below="@id/Everything"
+       android:background="@color/Casual"
+       android:text="Casual"
+       android:textColor="@color/text" />
+
+   <Button
+       android:id="@+id/Dressy"
+       android:layout_width="170dp"
+       android:layout_height="100dp"
+       android:layout_alignParentRight="true"
+       android:layout_below="@id/Everything"
+       android:layout_margin="10dp"
+       android:background="@color/Dressy"
+       android:text="Dressy"
+       android:textColor="@color/text" />
+
+   <Button
+       android:id="@+id/Gadgets"
+       android:layout_width="170dp"
+       android:layout_height="100dp"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/Casual"
+       android:layout_margin="10dp"
+       android:text="Gadgets"
+       android:background="@color/Gadgets"
+   		android:textColor="@color/text" >
+   </Button>
+   
+   <Button
+       android:id="@+id/Accessories"
+       android:layout_width="170dp"
+       android:layout_height="100dp"
+       android:layout_alignParentRight="true"
+       android:layout_below="@id/Dressy"
+       android:layout_margin="10dp"
+       android:text="Accessories"
+       android:background="@color/Accessories" 
+       android:textColor="@color/text" >
+   </Button>
+
+   <Button
+       android:id="@+id/Active"
+       android:layout_width="170dp"
+       android:layout_height="100dp"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/Gadgets"
+       android:layout_margin="10dp"
+       android:background="@color/Active"
+       android:text="Active"
+       android:textColor="@color/text" />
+
+   <Button
+       android:id="@+id/Home"
+       android:layout_width="170dp"
+       android:layout_height="100dp"
+       android:layout_alignParentRight="true"
+       android:layout_below="@id/Accessories"
+       android:layout_margin="10dp"
+       android:background="@color/Home"
+       android:text="Home"
+       android:textColor="@color/text" />
+	
+</RelativeLayout>

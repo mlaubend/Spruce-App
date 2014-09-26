@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/Background"
+    android:paddingTop="35dp" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical"
+	    android:background="@color/text"
+	    android:padding="5dp">
+	    
+	    <EditText
+	        android:id="@+id/full_name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text" 
+	        android:text="Full Name"
+	        android:hint="Full Name" >"
+	    </EditText>
+	    
+	    <EditText
+	        android:id="@+id/email"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/full_name"
+	        android:inputType="text" 
+	        android:hint="email"
+	        android:text="email" >
+	    </EditText>
+  
+	     <EditText
+	        android:id="@+id/points"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/full_name"
+	        android:inputType="text" 
+	        android:hint="Points"
+	        android:text="Points" >
+	    </EditText>
+    
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dp"
+	    android:padding="5dp" >
+	</View>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical"
+	    android:background="@color/text" >
+	     
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:background="@color/text"
+            android:gravity="center" >
+        </Button>
+	    
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/Background" >
+        </View>
+        
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@color/text"
+            android:gravity="center" >
+        </Button>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/Background" >
+        </View>
+        
+        <Button
+            android:id="@+id/terms_of_use"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms of Use"
+            android:background="@color/text"
+            android:gravity="center" >
+        </Button>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/Background" >
+        </View>
+   
+        <Button
+            android:id="@+id/contact_us"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:background="@color/text"
+            android:gravity="center" >
+        </Button>
+        
+    </LinearLayout>
+    
+    <View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="55dp"
+	    android:padding="5dp" >
+	</View>
+	
+    <LinearLayout
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical"
+	    android:background="@color/Background" 
+	    android:layout_gravity="center" >"
+        
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Spruce v.2.2" > 
+            
+        </TextView>
+        
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Santa Monica, CA" >
+        </TextView>
+        
+    </LinearLayout>
+    
+	
+</LinearLayout>

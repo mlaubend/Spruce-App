@@ -1,0 +1,110 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spruce" >
+    
+   	<ImageView
+   	    android:id="@+id/main_image"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="320dp"
+   	    android:layout_gravity="center_vertical"
+   	    android:background="@color/Background" 
+   	    android:src="@drawable/fashion" >"
+
+    </ImageView>
+   	    
+   	<RelativeLayout
+   	    android:id="@+id/textbox"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="50dp"
+   	    android:background="@color/text"
+   	    android:layout_below="@id/main_image"
+   	    android:gravity="center_vertical" >
+   	    
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:text="title - ">
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/category"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/title"
+	        android:text="category - " >
+	    </TextView>
+	    
+	     <TextView
+	        android:id="@+id/price"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/category"
+	        android:layout_below="@id/title"
+	        android:text="price - ">
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/saves"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/price"
+	        android:layout_below="@id/title"
+	        android:text="saves">
+	    </TextView>
+	   
+   	</RelativeLayout>
+	    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/textbox"
+        android:background="#e9e5db" >
+
+        <ImageButton 
+            android:id="@+id/downvote"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="26dp"
+            android:scaleType="fitCenter"
+            android:padding="20dp"
+            android:src="@drawable/thumbs_down_icon"
+            android:background="@drawable/roundedbutton"> 
+        </ImageButton>
+        
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true" 
+            android:scaleType="fitCenter"
+            android:src="@drawable/download_icon"
+            android:padding="20dp"
+            android:background="@drawable/roundedbutton" > 
+        </ImageButton>
+        
+        <ImageButton
+            android:id="@+id/upvote"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="26dp"
+            android:scaleType="fitCenter"
+            android:padding="20dp"
+            android:src="@drawable/thumbs_up_icon"            
+            android:background="@drawable/roundedbutton">
+        </ImageButton>
+    </RelativeLayout>
+        
+        
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="Everything">#398eb5</color>
+    <color name="Casual">#f2184b</color>
+    <color name="Dressy">#4ca64c</color>
+    <color name="text">#ffffff</color>
+    <color name="Gadgets">#FF6600</color>
+    <color name="Accessories">#00CC99</color>
+    <color name="Active">#FF9933</color>
+    <color name="Home">#66CCFF</color>    
+    <color name="Background">#e0dbd0</color> 
+    <color name="Buy_Now">#00c5aa</color>
+    <color name="Learn_More">#dc6054</color>
+    
+</resources>

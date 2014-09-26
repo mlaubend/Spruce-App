@@ -1,0 +1,95 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spruce" >
+    
+   	<ImageView
+   	    android:id="@+id/image"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="320dp"
+   	    android:layout_gravity="center_vertical"
+   	    android:adjustViewBounds="true"
+   	    android:background="#c0c0c0"
+   	    android:clickable="true"
+   	    android:src="@drawable/fashion" >
+
+    </ImageView>
+   	    
+   	
+    <RelativeLayout
+   	    android:id="@+id/textbox1"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="50dp"
+   	    android:background="@color/text"
+   	    android:layout_below="@id/image"
+   	    android:gravity="center_vertical" >
+   	    
+	    <TextView
+	        android:id="@+id/title1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:text="TITLE" >
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/category1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/title1"
+	        android:text="category - " >
+	    </TextView>
+	    
+	     <TextView
+	        android:id="@+id/price1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/category1"
+	        android:layout_below="@id/title1"
+	        android:text="price - " >
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/saves1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/price1"
+	        android:layout_below="@id/title1"
+	        android:text="4 saves" >
+	    </TextView>
+	   
+   	</RelativeLayout>
+	    
+ 	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/textbox1"
+        android:orientation="vertical"
+        android:layout_weight="1.0"
+        android:background="#CCFFCC" >
+
+ 	    <Button
+       		android:layout_width="match_parent"
+   	    	android:layout_height="match_parent"
+       	    android:id="@+id/buynow"
+       	    android:text="Buy Now" 
+       	    android:layout_weight="1.0"
+       	    android:background="@color/Buy_Now">
+       	</Button>
+	       	
+       	<Button 
+       	    android:id="@+id/learnmore"
+       	    android:layout_width="match_parent"
+       	    android:layout_height="match_parent"
+       	    android:layout_below="@id/buynow"
+       	    android:text="Learn More" 
+         	android:layout_weight="1.0"
+       	    android:background="@color/Learn_More">
+       	</Button>
+    </LinearLayout>
+        
+        
+
+</RelativeLayout>

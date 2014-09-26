@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical" >
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="35dp" >
+    </View>
+    
+    <EditText
+        android:id="@+id/username1"
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:background="@color/text"
+        android:gravity="center"
+        android:hint="Username" >    "
+    </EditText>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" >
+    </View>
+  
+   	<EditText
+   	    android:id="@+id/email"
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"        
+        android:background="@color/text"
+        android:hint="Email"
+        android:inputType= "textEmailAddress" >   
+    </EditText>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" >
+    </View>
+  
+   	<EditText
+   	    android:id="@+id/password1"
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"        
+        android:background="@color/text"
+        android:hint="password"
+        android:inputType="textPassword" >"
+    </EditText>
+    
+   	<View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" >
+    </View>
+  
+   	<EditText
+   	    android:id="@+id/pasword2"
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"        
+        android:background="@color/text"
+        android:hint="confirm password"
+        android:inputType="textPassword" >"
+    </EditText>
+    
+   	
+   	<View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" >
+    </View>
+    
+   	<Button
+   	    android:id="@+id/create_account1"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp"
+   	    android:text="Create Account" 
+   	    android:background="@color/Dressy" >"
+   	</Button>
+    	
+
+</LinearLayout>
